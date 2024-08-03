@@ -55,15 +55,13 @@ phases:
 
 artifacts:
   files:
-    - index.html
-    - helloworld/**/*
-    - #'template.yml'
-    - #'ec2django/**/*'
-    - #'helloworld/**/*'
-    - #'scripts/**/*'
-    - #'appspec.yml'
-    - #'manage.py'
-    - #'requirements/**/*'
-    - #'requirements.txt'
-    - #'supervisord.conf'
-    - #'template-configuration.json'
+    - 'template.yml'
+    - 'ec2django/**/*'
+    - 'helloworld/**/*'
+    - 'scripts/**/*'
+    - 'appspec.yml'
+    - 'manage.py'
+    - 'requirements/**/*'
+    - 'requirements.txt'
+    - 'supervisord.conf'
+    - 'template-configuration.json'
